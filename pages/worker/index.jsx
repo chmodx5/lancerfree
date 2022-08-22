@@ -1,13 +1,14 @@
 import React from "react";
-import { Project } from "../../Components/elements/index";
-import { WorkerLayout } from "../../Components/Layouts";
-import { Card } from "../../Components/elements";
-import Button from "@mui/material/Button";
+// import { Project } from "../../Components/elements/index";
+// import { WorkerLayout } from "../../Components/Layouts";
+// import { Card } from "../../Components/elements";
+// import Button from "@mui/material/Button";
 
 const index = () => {
   return (
     <div className=" grid grid-cols-12 space-x-3">
-      <div className=" col-span-3">
+      index
+      {/* <div className=" col-span-3">
         <Card>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
           ab! Eos molestias laudantium neque fugiat reiciendis, incidunt ea
@@ -33,9 +34,9 @@ const index = () => {
         <Project />
         <Project />
 
-        <Card>
-          {/* pagination section */}
-          <div className="flex justify-between px-2">
+        <Card> */}
+      {/* pagination section */}
+      {/*  <div className="flex justify-between px-2">
             <div className="text-sm">
               <span className="font-bold text-base">Projects </span>
               <span className=" text-xs">1 - 10 of 100 results</span>
@@ -50,13 +51,13 @@ const index = () => {
             </div>
           </div>
         </Card>
-      </div>
+      </div> */}
     </div>
   );
 };
 
 export default index;
 
-index.getLayout = function getLayout(page) {
-  return <WorkerLayout>{page}</WorkerLayout>;
-};
+// index.getLayout = function getLayout(page) {
+//   return <WorkerLayout>{page}</WorkerLayout>;
+// };
