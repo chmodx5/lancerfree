@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
-// import { GuestLayout } from "../Components/Layouts";
+import { GuestLayout } from "./../src/components/layout/index";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
@@ -31,6 +31,6 @@ export default function Home() {
   );
 }
 
-// Home.getLayout = function getLayout(page) {
-//   return <GuestLayout>{page}</GuestLayout>;
-// };
+Home.getLayout = function getLayout(page) {
+  return <GuestLayout>{page}</GuestLayout>;
+};

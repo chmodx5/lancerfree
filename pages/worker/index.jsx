@@ -1,6 +1,6 @@
 import React from "react";
 // import { Project } from "../../Components/elements/index";
-// import { WorkerLayout } from "../../Components/Layouts";
+import { WorkerLayout } from "./../../src/components/layout/index";
 // import { Card } from "../../Components/elements";
 // import Button from "@mui/material/Button";
 
@@ -58,6 +58,6 @@ const index = () => {
 
 export default index;
 
-// index.getLayout = function getLayout(page) {
-//   return <WorkerLayout>{page}</WorkerLayout>;
-// };
+index.getLayout = function getLayout(page) {
+  return <WorkerLayout>{page}</WorkerLayout>;
+};
