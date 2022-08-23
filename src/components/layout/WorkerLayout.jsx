@@ -1,5 +1,5 @@
 import React from "react";
-import { WorkerNavBar } from "../blocks";
+import WorkerNavBar from "../blocks/WorkerNavBar";
 
 const WorkerLayout = ({ children }) => {
   return (

@@ -1,8 +1,20 @@
 import React from "react";
-import { WorkerLayout } from "./../../src/components/layout/index";
+import { WorkerLayout, Sidebar } from "./../../src/";
 
 const index = () => {
-  return <div>worker</div>;
+  return (
+    <div className="grid grid-cols-12 space-x-4 py-4">
+      <div className="col-span-3">
+        <Sidebar />
+      </div>
+      <div className="col-span-9">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, atque?
+        Dolorum, animi amet nihil quo excepturi recusandae accusamus, blanditiis
+        eaque, aperiam itaque libero! Itaque praesentium blanditiis perferendis
+        voluptas eligendi earum?
+      </div>
+    </div>
+  );
 };
 
 export default index;

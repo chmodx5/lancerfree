@@ -1,5 +1,5 @@
 import React from "react";
-import { WorkerLayout } from "./../../src/components/layout/index";
+import { WorkerLayout } from "./../../src/";
 
 const inbox = () => {
   return <div>inbox</div>;
