@@ -5,8 +5,7 @@ const WorkerLayout = ({ children }) => {
   return (
     <div>
       <WorkerNavBar />
-
-      {children}
+      <div className="container mx-auto">{children}</div>
     </div>
   );
 };

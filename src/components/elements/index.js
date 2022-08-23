@@ -1,4 +1,5 @@
 import Project from "./Project";
 import Filters from "./Filters";
+import NavLink from "./NavLink";
 
-export { Project, Filters };
+export { Project, Filters, NavLink };
