@@ -4,7 +4,7 @@ const Rating = ({ rating }) => {
   return (
     <div>
       {/* rating component */}
-      <div className="inline-flex space-x-2 items-center text-primary text-xl">
+      <div className="inline-flex space-x-2 items-center text-primary text-base">
         {rating <= 0.5 ? (
           <>
             <BsStarHalf />
@@ -86,7 +86,7 @@ const Rating = ({ rating }) => {
             <BsStarFill />
           </>
         )}
-        <span className="text-sm">{rating}</span>
+        <span className="text-sm mt-1">{rating}</span>
       </div>
     </div>
   );
