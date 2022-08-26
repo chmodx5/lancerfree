@@ -20,7 +20,7 @@ const WorkerNavBar = () => {
     },
   ];
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-1 shadow dark:bg-gray-900">
+    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-1 shadow dark:bg-gray-900 fixed w-full z-20 top-0 left-0">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://flowbite.com/" className="flex items-center">
           <img

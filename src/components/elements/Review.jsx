@@ -1,9 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import Chip from "./Chip";
 import Rating from "./Rating";
 
-const UserCard = () => {
+const Review = () => {
   return (
     <Card>
       <div className="grid grid-cols-12 space-x-4">
@@ -24,8 +23,6 @@ const UserCard = () => {
             <div>
               <Rating rating={3} />
             </div>
-            <p>12 Reviews</p>
-            <div>96% completion rate</div>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
@@ -33,19 +30,10 @@ const UserCard = () => {
             esse, nihil fugiat rerum cumque eius numquam provident unde sapiente
             expedita, eum harum.
           </p>
-          <div className="space-x-3">
-            <Chip item="skill one" />
-            <Chip item="skill one" />
-            <Chip item="skill one" />
-            <Chip item="skill one" />
-            <Chip item="skill one" />
-            <Chip item="skill one" />
-            <Chip item="skill one" />
-          </div>
         </div>
       </div>
     </Card>
   );
 };
 
-export default UserCard;
+export default Review;

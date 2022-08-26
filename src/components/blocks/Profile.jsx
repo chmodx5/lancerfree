@@ -1,20 +1,20 @@
 import React from "react";
-import Card from "./Card";
-import Chip from "./Chip";
-import Rating from "./Rating";
+import Card from "../elements/Card";
+import Rating from "../elements/Rating";
+import Chip from "../elements/Chip";
 
-const UserCard = () => {
+const Profile = () => {
   return (
     <Card>
       <div className="grid grid-cols-12 space-x-4">
-        <div className="col-span-1">
+        <div className="col-span-2">
           <img
             src="https://source.unsplash.com/random"
             className=" aspect-square w-full"
             alt=""
           />
         </div>
-        <div className="space-y-3 col-span-11">
+        <div className="space-y-3 col-span-10">
           <div className="flex justify-between">
             <h3 className="font-bold text-xl">@someonelse</h3>
             <h3 className="font-semibold text-l">Bid - Kes100</h3>
@@ -33,6 +33,7 @@ const UserCard = () => {
             esse, nihil fugiat rerum cumque eius numquam provident unde sapiente
             expedita, eum harum.
           </p>
+          <h4 className="font-semibold">Skills</h4>
           <div className="space-x-3">
             <Chip item="skill one" />
             <Chip item="skill one" />
@@ -42,10 +43,35 @@ const UserCard = () => {
             <Chip item="skill one" />
             <Chip item="skill one" />
           </div>
+          <div className="grid grid-cols-2">
+            <div>
+              Jobs completed :<span className="font-semibold">76</span>
+            </div>
+            <div>
+              On Budget : <span className="font-semibold">76</span>
+            </div>
+            <div>
+              On time : <span className="font-semibold">76</span>
+            </div>
+            <div>
+              Incomplete : <span className="font-semibold">76</span>
+            </div>
+          </div>
+          <div>
+            <p>
+              Location : <span className="font-semibold">Nairobi</span>
+            </p>
+          </div>
+          <div>
+            <p>
+              Date joined :{" "}
+              <span className="font-semibold">1st March 2022</span>{" "}
+            </p>
+          </div>
         </div>
       </div>
     </Card>
   );
 };
 
-export default UserCard;
+export default Profile;

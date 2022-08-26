@@ -1,8 +1,23 @@
 import React from "react";
-import { WorkerLayout } from "./../../src/";
+
+import { WorkerLayout, UserCard, Pagination, FilterSearch } from "./../../src/";
 
 const freelancers = () => {
-  return <div>freelancers</div>;
+  return (
+    <div className="space-y-4">
+      <FilterSearch />
+      <UserCard />
+      <UserCard />
+      <UserCard />
+      <UserCard />
+      <UserCard />
+      <UserCard />
+      <UserCard />
+      <UserCard />
+      <UserCard />
+      <Pagination />
+    </div>
+  );
 };
 
 export default freelancers;
