@@ -32,4 +32,13 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return Inertia::render('User/Dashboard');
     })->name('dashboard');
+    Route::get('/tasks', function () {
+        return Inertia::render('User/Tasks');
+    })->name('dashboard');
+    Route::get('/freelancers', function () {
+        return Inertia::render('User/Freelancers');
+    })->name('dashboard');
+    Route::get('/accounts', function () {
+        return Inertia::render('User/Account');
+    })->name('dashboard');
 });

@@ -52,7 +52,7 @@ import NavLink from "../elements/NavLink.vue";
                     <NavLink href="/dashboard"> dashboard </NavLink>
                     <NavLink href="/tasks"> my tasks </NavLink>
                     <NavLink href="/freelancers"> freelancers </NavLink>
-                    <NavLink href="/accounts"> accounts </NavLink>
+                    <NavLink href="/accounts"> account</NavLink>
                 </ul>
             </div>
         </div>

@@ -1,3 +1,8 @@
+<script setup>
+import UserLayout from "./../../Layouts/UserLayout.vue";
+</script>
 <template>
-    <div>inbox</div>
+    <UserLayout>
+        <div>inbox</div>
+    </UserLayout>
 </template>
